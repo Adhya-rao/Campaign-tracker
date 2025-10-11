@@ -26,6 +26,16 @@ Before you dive in, make sure you have:
 * MongoDB running locally (default on port 27017).
 * npm (comes with Node.js) for managing dependencies.
 
+* result
+
+* <img width="1888" height="815" alt="Image" src="https://github.com/user-attachments/assets/d7241c50-daab-43f2-868d-7a694621dda2" />
+
+<img width="890" height="856" alt="Image" src="https://github.com/user-attachments/assets/00e39f8b-b88d-4075-b361-1f95401cc7aa" />
+
+<img width="1909" height="866" alt="Image" src="https://github.com/user-attachments/assets/2f63b9be-ed77-46bc-879a-1a293da0ef74" />
+
+<img width="704" height="711" alt="Image" src="https://github.com/user-attachments/assets/0e4f8992-09ec-4b91-a0cd-fee30a1fde37" />
+
 ## Installation and Setup
 
 Let’s get this up and running! Follow these steps:
