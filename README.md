@@ -41,8 +41,8 @@ Before you dive in, make sure you have:
 
 <img width="1904" height="853" alt="Image" src="https://github.com/user-attachments/assets/7abe855b-91ce-4071-a334-6ef354b7beba" />
 
-*CAMPAIGN LIST
-<img width="1910" height="706" alt="Image" src="https://github.com/user-attachments/assets/b4a9e999-8a2a-4972-9d47-bb974c9ed67a" />
+*CAMPAIGN LIST WITH EDIT/UPDATE AND DELETE FUNCTIONALITY
+<img width="1904" height="753" alt="Image" src="https://github.com/user-attachments/assets/1c34a648-d949-4829-9381-fee2c4a564a4" />
 
 *SORTING
 
