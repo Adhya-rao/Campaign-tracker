@@ -1,0 +1,195 @@
+﻿.campaign-list-container {
+  padding: 25px 30px;
+  background: #f8f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(108, 99, 255, 0.1);
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-row h2 {
+  color: #6c63ff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.search-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 16px;
+}
+
+.search-bar {
+  padding: 10px 40px 10px 14px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1.5px solid #ddd;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+}
+
+
+.table-container {
+  overflow-x: auto;
+}
+
+.campaign-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.campaign-table th,
+.campaign-table td {
+  text-align: left;
+  padding: 14px 18px;
+  font-size: 15px;
+}
+
+.campaign-table thead {
+  background: linear-gradient(135deg, #6c63ff, #8579ff);
+  color: white;
+}
+
+.campaign-table tr {
+  border-bottom: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+
+.campaign-table tr:hover {
+  background-color: #f4f3ff;
+}
+
+
+.status-select {
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  cursor: pointer;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.status-select:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 4px rgba(108, 99, 255, 0.3);
+}
+
+
+.edit-btn, .save-btn {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.edit-btn:hover, .save-btn:hover {
+  background: linear-gradient(135deg, #4338ca, #6d28d9);
+  transform: translateY(-2px);
+}
+
+.cancel-btn {
+  background: linear-gradient(135deg, #6b7280, #9ca3af);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cancel-btn:hover {
+  background: linear-gradient(135deg, #4b5563, #6b7280);
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background: linear-gradient(135deg, #ff5a5f, #ff7b7f);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.delete-btn:hover {
+  background: linear-gradient(135deg, #e14c50, #ff5e6a);
+  transform: translateY(-2px);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.no-data {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  .header-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .campaign-table th,
+  .campaign-table td {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
