@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+mport React, { useState } from "react";
 import CampaignList from "./CampaignList";
 import CampaignForm from "./CampaignForm";
 import "./Dashboard.css";
@@ -28,22 +28,22 @@ const Dashboard = ({ campaigns, onLogout }) => {
             <h2>Campaign Overview</h2>
             <div className="cards">
               <div className="card total">
-                <div className="card-icon">📈</div>
+                <div className="card-icon">??</div>
                 <h3>{total}</h3>
                 <p>Total Campaigns</p>
               </div>
               <div className="card active">
-                <div className="card-icon">▶</div>
+                <div className="card-icon">?</div>
                 <h3>{active}</h3>
                 <p>Active</p>
               </div>
               <div className="card paused">
-                <div className="card-icon">⏸</div>
+                <div className="card-icon">?</div>
                 <h3>{paused}</h3>
                 <p>Paused</p>
               </div>
               <div className="card completed">
-                <div className="card-icon">✓</div>
+                <div className="card-icon">?</div>
                 <h3>{completed}</h3>
                 <p>Completed</p>
               </div>

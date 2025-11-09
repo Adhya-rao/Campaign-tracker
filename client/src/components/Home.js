@@ -1,11 +1,11 @@
-﻿import React from 'react';
+mport React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className="home-container">
-      {}
+      {/* Header */}
       <header className="header">
         <div className="logo">
           <h1>CampaignTracker</h1>
@@ -16,11 +16,15 @@ const Home = () => {
         </nav>
       </header>
 
-      {}
+      {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
           <h2>Manage Every Campaign Seamlessly</h2>
-          <p>Plan, monitor, and improve campaigns with a single dashboard â€” built for teams that value precision and clarity.</p>
+          <p>
+            Plan, monitor, and improve campaigns with a single dashboard � built for teams that
+            value precision and clarity.
+          </p>
+
           <div className="stats">
             <div className="stat">
               <span className="stat-number">500+</span>
@@ -35,11 +39,12 @@ const Home = () => {
               <span className="stat-label">Brands Connected</span>
             </div>
           </div>
+
           <Link to="/login" className="cta-button">Launch Dashboard</Link>
         </div>
       </section>
 
-      {}
+      {/* How It Works Section */}
       <section className="how-it-works">
         <h2>Simple Steps to Get Started</h2>
         <div className="works-grid">
@@ -58,7 +63,7 @@ const Home = () => {
         </div>
       </section>
 
-      {}
+      {/* Features Section */}
       <section className="features">
         <h2>Why Choose CampaignTracker</h2>
         <table className="features-table">
@@ -72,29 +77,29 @@ const Home = () => {
           <tbody>
             <tr>
               <td>Automated Scheduling</td>
-              <td className="no">X</td>
-              <td className="yes">âœ“</td>
+              <td className="no">?</td>
+              <td className="yes">?</td>
             </tr>
             <tr>
               <td>Team Collaboration</td>
               <td className="partial">!</td>
-              <td className="yes">âœ“</td>
+              <td className="yes">?</td>
             </tr>
             <tr>
               <td>Custom Analytics</td>
-              <td className="no">X</td>
-              <td className="yes">âœ“</td>
+              <td className="no">?</td>
+              <td className="yes">?</td>
             </tr>
             <tr>
               <td>Instant Notifications</td>
-              <td className="no">X</td>
-              <td className="yes">âœ“</td>
+              <td className="no">?</td>
+              <td className="yes">?</td>
             </tr>
           </tbody>
         </table>
       </section>
 
-      {}
+      {/* Results Section */}
       <section className="results">
         <h2>Trusted by Marketing Teams Worldwide</h2>
         <div className="results-grid">
@@ -113,12 +118,12 @@ const Home = () => {
         </div>
       </section>
 
-      {}
+      {/* Testimonials Section */}
       <section className="testimonials">
         <h2>Our Users Love It</h2>
         <div className="testimonials-grid">
           <div className="testimonial-card">
-            <p>"An amazing platform â€” simplified our daily reporting process completely!"</p>
+            <p>"An amazing platform � simplified our daily reporting process completely!"</p>
           </div>
           <div className="testimonial-card">
             <p>"The clean dashboard and insights have made campaign tracking effortless."</p>
@@ -126,7 +131,7 @@ const Home = () => {
         </div>
       </section>
 
-      {}
+      {/* Footer */}
       <footer className="footer">
         <p>&copy; 2025 CampaignTracker. Built for smarter marketing.</p>
         <div className="footer-links">
@@ -139,4 +144,3 @@ const Home = () => {
 };
 
 export default Home;
-

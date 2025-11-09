@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+mport React, { useState } from "react";
 import { createCampaign } from "../api";
 import "./CampaignForm.css";
 
@@ -79,7 +79,7 @@ const CampaignForm = ({ onCampaignAdded }) => {
           </div>
 
           <button type="submit" className="submit-btn">
-            âž• Add Campaign
+            ➕ Add Campaign
           </button>
         </form>
       </div>

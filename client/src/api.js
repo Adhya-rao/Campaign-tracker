@@ -1,6 +1,6 @@
-﻿import axios from 'axios';
+mport axios from 'axios';
 
-const API_BASE = '/api';
+const API_BASE = process.env.NODE_ENV === 'production' ? 'https://campaign-tracker-backend-mmci1s9cs-adhya-raos-projects.vercel.app/api' : '/api';
 
 const api = axios.create({
   baseURL: API_BASE,

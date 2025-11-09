@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from "react";
+mport React, { useState, useEffect } from "react";
 import { register, login } from "../api";
 import "./Login.css";
 
@@ -49,7 +49,7 @@ const Login = ({ onLogin }) => {
     try {
       if (isRegister) {
         await register(formData.name, formData.password);
-        setError("âœ… Registration successful! Please login.");
+        setError("✅ Registration successful! Please login.");
         setIsRegister(false);
       } else {
         const data = await login(formData.name, formData.password);
@@ -57,7 +57,7 @@ const Login = ({ onLogin }) => {
         onLogin();
       }
     } catch (err) {
-      setError(err.message || "âŒ Something went wrong!");
+      setError(err.message || "❌ Something went wrong!");
     }
   };
 
@@ -102,7 +102,7 @@ const Login = ({ onLogin }) => {
         {error && <p className="error-text">{error}</p>}
 
         <p className="toggle-text">
-          {isRegister ? "Already have an account?" : "Donâ€™t have an account?"}{" "}
+          {isRegister ? "Already have an account?" : "Don’t have an account?"}{" "}
           <button
             type="button"
             className="toggle-btn"
