@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 mport React from 'react';
+=======
+import React from 'react';
+>>>>>>> f423636fafede438bec6185d9ce4f08a725e4fe5
 import { Link } from 'react-router-dom';
 import './Home.css';
 
@@ -21,7 +25,11 @@ const Home = () => {
         <div className="hero-content">
           <h2>Manage Every Campaign Seamlessly</h2>
           <p>
+<<<<<<< HEAD
             Plan, monitor, and improve campaigns with a single dashboard � built for teams that
+=======
+            Plan, monitor, and improve campaigns with a single dashboard — built for teams that
+>>>>>>> f423636fafede438bec6185d9ce4f08a725e4fe5
             value precision and clarity.
           </p>
 
@@ -77,12 +85,18 @@ const Home = () => {
           <tbody>
             <tr>
               <td>Automated Scheduling</td>
+<<<<<<< HEAD
               <td className="no">?</td>
               <td className="yes">?</td>
+=======
+              <td className="no">✗</td>
+              <td className="yes">✓</td>
+>>>>>>> f423636fafede438bec6185d9ce4f08a725e4fe5
             </tr>
             <tr>
               <td>Team Collaboration</td>
               <td className="partial">!</td>
+<<<<<<< HEAD
               <td className="yes">?</td>
             </tr>
             <tr>
@@ -94,6 +108,19 @@ const Home = () => {
               <td>Instant Notifications</td>
               <td className="no">?</td>
               <td className="yes">?</td>
+=======
+              <td className="yes">✓</td>
+            </tr>
+            <tr>
+              <td>Custom Analytics</td>
+              <td className="no">✗</td>
+              <td className="yes">✓</td>
+            </tr>
+            <tr>
+              <td>Instant Notifications</td>
+              <td className="no">✗</td>
+              <td className="yes">✓</td>
+>>>>>>> f423636fafede438bec6185d9ce4f08a725e4fe5
             </tr>
           </tbody>
         </table>
@@ -123,7 +150,11 @@ const Home = () => {
         <h2>Our Users Love It</h2>
         <div className="testimonials-grid">
           <div className="testimonial-card">
+<<<<<<< HEAD
             <p>"An amazing platform � simplified our daily reporting process completely!"</p>
+=======
+            <p>"An amazing platform — simplified our daily reporting process completely!"</p>
+>>>>>>> f423636fafede438bec6185d9ce4f08a725e4fe5
           </div>
           <div className="testimonial-card">
             <p>"The clean dashboard and insights have made campaign tracking effortless."</p>

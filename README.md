@@ -26,6 +26,40 @@ Before you dive in, make sure you have:
 * MongoDB running locally (default on port 27017).
 * npm (comes with Node.js) for managing dependencies.
 
+* result
+
+
+
+* HOME PAGE
+
+* <img width="1888" height="815" alt="Image" src="https://github.com/user-attachments/assets/d7241c50-daab-43f2-868d-7a694621dda2" />
+
+<img width="890" height="856" alt="Image" src="https://github.com/user-attachments/assets/00e39f8b-b88d-4075-b361-1f95401cc7aa" />
+
+*LOGIN 
+<img width="1909" height="866" alt="Image" src="https://github.com/user-attachments/assets/2f63b9be-ed77-46bc-879a-1a293da0ef74" />
+
+
+*REGISTER
+<img width="704" height="711" alt="Image" src="https://github.com/user-attachments/assets/0e4f8992-09ec-4b91-a0cd-fee30a1fde37" />
+
+
+*DASHBOARD
+
+<img width="1904" height="853" alt="Image" src="https://github.com/user-attachments/assets/7abe855b-91ce-4071-a334-6ef354b7beba" />
+
+*CAMPAIGN LIST WITH EDIT/UPDATE AND DELETE FUNCTIONALITY
+<img width="1904" height="753" alt="Image" src="https://github.com/user-attachments/assets/1c34a648-d949-4829-9381-fee2c4a564a4" />
+
+*SORTING
+
+<img width="1891" height="692" alt="Image" src="https://github.com/user-attachments/assets/54f0a494-885c-47e3-b21e-7e2912f002e3" />
+
+
+*ADD CAMPAIGN
+
+<img width="1884" height="829" alt="Image" src="https://github.com/user-attachments/assets/525046bb-08ae-477c-862f-0bd085546013" />
+
 ## Installation and Setup
 
 Let’s get this up and running! Follow these steps:
@@ -33,7 +67,7 @@ Let’s get this up and running! Follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/Adhya-rao/Campaign-tracker>
    cd campaign-tracker
    ```
 
