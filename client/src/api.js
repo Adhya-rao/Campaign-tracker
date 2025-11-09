@@ -1,6 +1,6 @@
 mport axios from 'axios';
 
-const API_BASE = process.env.NODE_ENV === 'production' ? 'https://campaign-tracker-backend-4yut0je0g-adhya-raos-projects.vercel.app/api' : '/api';
+const API_BASE = process.env.NODE_ENV === 'production' ? 'https://campaign-tracker-3l0z.onrender.com/api' : '/api';
 
 const api = axios.create({
   baseURL: API_BASE,
